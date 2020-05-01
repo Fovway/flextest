@@ -1,0 +1,193 @@
+@font-face {
+    font-family: "Iskra-Regular"; 
+    src: url("font/Iskra-Regular.otf"); 
+} 
+
+body{
+    font-family: "Iskra-Regular";
+    background-color: antiquewhite;
+    color: white;
+}
+
+.logo{
+    position: absolute;
+    width: 99px;
+    height: 199px;
+    left: 30px;
+    background-image: url(images/logo.png);
+    margin-top: -100px;
+    transition: all 0.3s ease-out;
+}
+
+.logo:hover{
+    transform: translate(0px, 100px);;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 600px;
+    background-color: #ED514A;
+}
+
+.titlebox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    width: 70%;
+}
+
+.titlebox h1{
+    font-size: 50px;
+}
+
+.titlebox h3{
+    font-size: 30px;
+}
+
+.btn_buy{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 317px;
+    height: 81px;
+    font-size: 30px;
+    color: white;
+    background: #ED514A;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    transition: all 0.3s ease-out;
+}
+.btn_buy:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.title_img{
+    background: url(images/lang_img.png)30px 70px no-repeat;
+    background-size: 550px;
+    width: 30%;
+    height: 600px;
+}
+
+
+.about{
+    display: flex;
+    background-color: #EE7772;
+    justify-content:space-around;
+    align-items: center;
+    padding: 200px 0px;
+}
+
+.about h3{
+    font-size: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+.about img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+}
+
+.brandsbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 200px 0px;
+    background-color: #EF8D89;
+}
+
+.magnat{
+    background-color: #241202;  
+}
+.goldstandart{
+    background-color: #fed141;
+}
+.ekzo{
+    background-color: #1d812d;
+}
+.max{
+    background-color: #fddb31;
+}
+.cornetto{
+    background-color: #00a3e0;
+}
+.cartedor{
+    background-color: #ffffff;
+}
+.inmarko{
+    background-color: #e13c2d;
+}
+.iofit{
+    background-color: #494949;
+}
+
+.icecream_settings{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    margin: 0px 0px 30px 30px;
+    transition: all 0.3s ease-out;
+    border-radius: 10px
+}
+.icecream_settings:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.contactbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 170px 0px;
+    background-color: #EFA7A4;
+}
+
+.contactbox h1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.contactbox h3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.inputdiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.inputtext{
+    text-align: center;
+    width: 430px;
+    height: 60px;
+    border: 2px solid #ED514A;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.footer{
+    background-color: #ED514A;
+    height: 100px;
+}
